@@ -12,7 +12,7 @@ function Home() {
 						Welcome to PubGolf!
 					</h1>
 					<img
-						src="src\media\pubgolf.png"
+						src={'srcmediapubgolf.png'}
 						alt="pubgolf"
 						className="w-10 h-10 flex-auto"
 					/>
