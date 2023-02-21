@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
-function Generator() {
+function Scorecard() {
 	return (
 		<body>
 			<Navbar />
@@ -110,4 +110,4 @@ function Generator() {
 	);
 }
 
-export default Generator;
+export default Scorecard;

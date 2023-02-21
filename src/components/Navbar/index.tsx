@@ -52,7 +52,7 @@ function Navbar() {
 							<Link to="/rules">Rules</Link>
 						</li>
 						<li>
-							<Link to="/Generator">Scorecards</Link>
+							<Link to="/Scorecard">Scorecards</Link>
 						</li>
 
 						<Link to="/register">
