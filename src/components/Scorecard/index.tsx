@@ -11,8 +11,7 @@ function Scorecard() {
 					<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 						<h1 className="text-4xl font-semibold flex-auto">Scorecard</h1>
 						<img
-							src={'srcmediapubgolf.png'}
-							alt="pubgolf"
+							src={'/src/media/pubgolf.png'}
 							className="w-10 h-10 flex-auto"
 						/>
 					</div>
