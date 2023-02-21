@@ -1,4 +1,5 @@
 import React from 'react';
+import PubGolf from '../../media/pubgolf.png';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
@@ -10,10 +11,7 @@ function Rules() {
 				<div className="w-fit mt-11 ml-11">
 					<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 						<h1 className="text-4xl font-semibold flex-auto">Rules!</h1>
-						<img
-							src={'../../media/pubgolf.png'}
-							className="w-10 h-10 flex-auto"
-						/>
+						<img src={PubGolf} className="w-10 h-10 flex-auto" />
 					</div>
 				</div>
 				<div className="w-fit w-full">

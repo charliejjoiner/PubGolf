@@ -1,4 +1,5 @@
 import React from 'react';
+import PubGolf from '../../media/pubgolf.png';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
@@ -10,10 +11,7 @@ function Scorecard() {
 				<div className="w-fit mx-11 mt-11">
 					<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 						<h1 className="text-4xl font-semibold flex-auto">Scorecard</h1>
-						<img
-							src={'../../media/pubgolf.png'}
-							className="w-10 h-10 flex-auto"
-						/>
+						<img src={PubGolf} className="w-10 h-10 flex-auto" />
 					</div>
 				</div>
 

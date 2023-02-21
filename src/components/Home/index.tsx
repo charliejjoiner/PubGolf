@@ -1,4 +1,5 @@
 import React from 'react';
+import PubGolf from '../../media/pubgolf.png';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
@@ -11,10 +12,7 @@ function Home() {
 					<h1 className="text-4xl font-semibold flex-auto">
 						Welcome to PubGolf!
 					</h1>
-					<img
-						src={'../../media/pubgolf.png'}
-						className="w-10 h-10 flex-auto"
-					/>
+					<img src={PubGolf} className="w-10 h-10 flex-auto" />
 				</div>
 			</div>
 			<h2 className="text-lg mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
