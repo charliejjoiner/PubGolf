@@ -1,5 +1,4 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import Generator from './components/Generator';
 import Home from './components/Home';
 import Login from './components/Login';
