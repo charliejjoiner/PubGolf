@@ -11,7 +11,7 @@ function Rules() {
 					<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 						<h1 className="text-4xl font-semibold flex-auto">Rules!</h1>
 						<img
-							src="src\media\favico.png"
+							src="src\media\pubgolf.png"
 							alt="pubgolf"
 							className="w-10 h-10 flex-auto"
 						/>
