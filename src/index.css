@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: Montserrat, sans-serif;
+	}
+}
+
+body {
+	@apply bg-mid-color;
+}
+
+.footer {
+	@apply align-bottom text-center bottom-0 w-full;
+}
+
+.footer p {
+	@apply mb-7 p-0;
+}
+
+.footer-by {
+	@apply text-sm mt-14 mx-0 mb-12 text-stone-600;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	@apply no-underline text-stone-800;
+}
