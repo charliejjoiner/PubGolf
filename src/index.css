@@ -9,7 +9,7 @@
 }
 
 body {
-	@apply bg-mid-color;
+	@apply h-screen bg-gradient-to-br from-lime-300 to-lime-800 bg-no-repeat;
 }
 
 .footer {
