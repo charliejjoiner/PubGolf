@@ -5,18 +5,21 @@ import Navbar from '../Navbar';
 
 function Home() {
 	return (
-		<body>
+		<body className="h-screen">
 			<Navbar />
-			<div className="w-fit mx-11 mt-5">
+			<div className="w-fit mx-11 mt-4">
 				<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 					<h1 className="text-4xl font-semibold flex-auto">
-						Welcome to PubGolf!
+						Welcome to Pub Golf!
 					</h1>
 					<img src={PubGolf} className="w-10 h-10 flex-auto" />
 				</div>
+				<div className="pb-4 text-center">
+					<p className="text-lime-900">Are you ready to Tee off?</p>
+				</div>
 			</div>
-			<div className="mt-5 bg-zinc-900/50 p-3 w-screen">
-				<h2 className="pl-10 text-lg leading-relaxed text-neutral-100">
+			<div className="bg-zinc-900/50 p-3 w-screen px-5">
+				<h2 className="text-lg leading-relaxed text-neutral-100 text-center md:text-left">
 					If you've never played the game - Why not try it sometime?
 					<br /> There are lots of variation on the rules of the game and the
 					number of holes played but in general the game consists of several

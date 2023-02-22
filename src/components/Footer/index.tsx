@@ -2,24 +2,19 @@ import React from 'react';
 
 function Footer() {
 	return (
-		<footer className="footer">
-			<p className="footer-by">
-				A project by{' '}
-				<a
-					href="https://charliejoiner.dev"
-					rel="noopener"
-					className="small-link"
-				>
-					Charlie Joiner
-				</a>
-				<a
-					href="https://charliejoiner.dev"
-					rel="noopener"
-					target="_blank"
-					className="no-link icon-twitter"
-					aria-label="Follow me on Twitter"
-				></a>
-			</p>
+		<footer className="align-bottom text-center bottom-0 w-full">
+			<div className="mb-7 p-0">
+				<p className="text-sm mt-14 mx-0 mb-12 block">
+					A project by{' '}
+					<a
+						href="https://charliejoiner.dev"
+						rel="noopener"
+						className="small-link text-neutral-100"
+					>
+						Charlie Joiner
+					</a>
+				</p>
+			</div>
 		</footer>
 	);
 }

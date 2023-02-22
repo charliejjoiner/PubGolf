@@ -8,14 +8,14 @@ function Rules() {
 		<body>
 			<Navbar />
 			<div className="flex flex-col">
-				<div className="w-fit mt-11 ml-11">
+				<div className="w-fit mt-4 ml-11">
 					<div className="rounded-md bg-dark-color h-12 text-center h-full p-3 text-light-color flex">
 						<h1 className="text-4xl font-semibold flex-auto">Rules!</h1>
 						<img src={PubGolf} className="w-10 h-10 flex-auto" />
 					</div>
 				</div>
 				<div className="w-fit w-full">
-					<div className="mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
+					<div className="mx-11 mt-3 bg-zinc-900/50 rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
 						<h2 className="text-xl underline">The Basics</h2>
 						<p className="text-sm">
 							Each pub is a hole, and as such it has a par and a specified
@@ -27,7 +27,7 @@ function Rules() {
 					</div>
 				</div>
 				<div className="w-fit w-full">
-					<div className="mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
+					<div className="mx-11 mt-3 bg-zinc-900/50 rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
 						<h2 className="text-xl underline">Drinks</h2>
 						<p className="text-sm">
 							You must have a mixer if specified, if none is specified, then
@@ -49,7 +49,7 @@ function Rules() {
 					</div>
 				</div>
 				<div className="w-fit w-full">
-					<div className="mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
+					<div className="mx-11 mt-3 bg-zinc-900/50 rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
 						<h2 className="text-xl underline">Drink Substitution</h2>
 						<p className="text-sm">
 							If you wish to play the hole using a drink substitution, this is
@@ -68,7 +68,7 @@ function Rules() {
 					</div>
 				</div>
 				<div className="w-fit w-full">
-					<div className="mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
+					<div className="mx-11 mt-3 bg-zinc-900/50 rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
 						<h2 className="text-xl underline">Water Hazards</h2>
 						<p className="text-sm">
 							If a hole has a water hazard, you are not allowed to go to the
@@ -83,7 +83,7 @@ function Rules() {
 					</div>
 				</div>
 				<div className="w-fit w-full">
-					<div className="mx-11 mt-3 bg-home-color rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
+					<div className="mx-11 mt-3 bg-zinc-900/50 rounded-md w-screen- p-3 leading-relaxed text-neutral-200">
 						<h2 className="text-xl underline">Scoring</h2>
 						<p className="text-sm">
 							Your score for a hole is the number of strokes taken to complete
