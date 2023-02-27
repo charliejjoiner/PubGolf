@@ -17,14 +17,14 @@ function Scorecard() {
 
 				<div className="w-screen mt-3">
 					<div className="bg-zinc-900/50 p-3 text-center">
-						<h2 className="text-lg text-neutral-200">
+						<h2 className="text-lg text-neutral-100">
 							Highlight and Copy this scorecard into your notes app on your
 							phone, you can then edit it to your specific game.
 						</h2>
 					</div>
 				</div>
 				<div className="text-center content-center w-screen">
-					<table className="table-auto mt-3 ml-12 bg-yellow-200 border border-slate-500">
+					<table className="table-auto mt-3 ml-12 bg-stone-200/60 border border-slate-500">
 						<thead className="border border-slate-500">
 							<tr>
 								<td className="border-r border-slate-500 md:px-24 py-2">
